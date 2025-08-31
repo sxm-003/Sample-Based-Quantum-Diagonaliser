@@ -38,7 +38,7 @@ def run_sampler(circ, backend_obj, backend_name, options):
         log.info(f" JOB COMPLETED: {job_id}")
         print(f"Job {job_id} completed successfully!")
         
-        # Enhanced result class with job ID
+        # Result class with job ID
         class QuantumResult:
             def __init__(self, pub_result, job_id, backend_name):
                 self.data = pub_result.data
@@ -71,12 +71,12 @@ def _aer_fallback_execution(circuit, backend_obj, backend_name, options, log):
         # Generate pseudo job ID for Aer
         import uuid
         pseudo_job_id = f"aer_{str(uuid.uuid4())[:8]}"
-        log.info(f"★ AER JOB ID: {pseudo_job_id}")
-        print(f"★ Aer Simulation Job ID: {pseudo_job_id}")
+        log.info(f" AER JOB ID: {pseudo_job_id}")
+        print(f" Aer Simulation Job ID: {pseudo_job_id}")
         
         log.info("Aer simulation successful")
         
-        # Enhanced Aer result classes with job ID
+        #  Aer result classes with job ID
         class AerData:
             def __init__(self, qiskit_result):
                 self.meas = qiskit_result
