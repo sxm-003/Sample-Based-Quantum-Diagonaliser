@@ -1,0 +1,8 @@
+atom = [
+    ["N", (0, 0, 0)], ["N", (1.0, 0, 0)]
+]
+basis = "cc-pvdz"
+symmetry = "Dooh"
+spin_sq = 0
+charge = 0
+n_frozen = 2
