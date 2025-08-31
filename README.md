@@ -407,7 +407,7 @@ SQD_pipeline/
         -   Name : sqd-local-cache (for naming consistency with code)
 
         -   Basepath: .prefect_cache (for naming consistency with code)
-Start the perfect server.
+    - Start the perfect server.
 
 4.  **Run Workflow**:
 
@@ -472,6 +472,7 @@ Learning** for even smarter resource handling.
 
 The future of research is backed by **AI for Quantum Centric
 Supercomputing**.
+
 
 
 
