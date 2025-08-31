@@ -19,8 +19,7 @@ def run_sampler(circ, backend_obj, backend_name, options):
         service = QiskitRuntimeService(
             channel='ibm_quantum_platform',
             token=credentials.api_key.get_secret_value(),
-            instance='crn:v1:bluemix:public:quantum-computing:us-east:a/6658460175ef4c49b90505ad4b1a441d:d13d7d8b-bba7-4ef0-93ae-d723e1c0df99::'
-        )
+            instance=credentials.crn )
         
         backend = service.backend(backend_name)
         sampler = Sampler(mode=backend)
