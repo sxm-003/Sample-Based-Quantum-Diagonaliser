@@ -1,6 +1,6 @@
 "**Quantum Chemistry Workflow Documentation**"
 
-# Overview {#overview .unnumbered}
+# Overview 
 
 This project implements a quantum chemistry computational pipeline that
 leverages IBM Quantum hardware through Qiskit and is orchestrated using
@@ -13,10 +13,7 @@ orchestrated pipeline.
 
 # Pipeline
 
-<figure>
-<span class="image placeholder" data-original-image-src="img.png"
-data-original-image-title="" width="\textwidth"
-height="\textheight"></span>
+<figure><img width="2763" height="2258" alt="img" src="https://github.com/user-attachments/assets/fc6a57d8-dab6-41e7-a7c8-e3bdf0bbda6a" />
 <figcaption>Quantum Chemistry Workflow Pipeline</figcaption>
 </figure>
 
@@ -474,4 +471,5 @@ Learning** for even smarter resource handling.
 
 The future of research is backed by **AI for Quantum Centric
 Supercomputing**.
+
 
