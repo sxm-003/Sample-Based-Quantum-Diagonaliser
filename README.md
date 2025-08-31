@@ -1,6 +1,4 @@
----
-title: "**Quantum Chemistry Workflow Documentation**"
----
+"**Quantum Chemistry Workflow Documentation**"
 
 # Overview {#overview .unnumbered}
 
@@ -476,3 +474,4 @@ Learning** for even smarter resource handling.
 
 The future of research is backed by **AI for Quantum Centric
 Supercomputing**.
+
