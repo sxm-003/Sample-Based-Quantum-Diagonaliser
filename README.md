@@ -1,5 +1,5 @@
 
-# ** Prefect Orchestrated Sample-Based Quantum Diagonaliser Workflow**
+# **Prefect Orchestrated Sample-Based Quantum Diagonaliser Workflow**
 
 A quantum chemistry computational pipeline that leverages **IBM Quantum hardware through Qiskit** and is orchestrated using **Prefect** for robust, fault-tolerant execution.  
 The system performs **Sample-based Quantum Diagonalization (SQD)** calculations on molecular systems with intelligent backend selection, load balancing, and multi-level error recovery.
@@ -267,3 +267,4 @@ Contributions are welcome. Please submit a Pull Request.
 ## **Contact**
 
 For questions or support, please open an issue on GitHub.
+
