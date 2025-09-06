@@ -22,39 +22,39 @@ The system performs **Sample-based Quantum Diagonalization (SQD)** calculations 
 
 SQD_pipeline/
 
-├── chemistry/ # Core quantum chemistry logic
+├── chemistry/             # Core quantum chemistry logic
 
-│ ├── create_ansatz.py # Quantum circuit ansatz construction
+│ ├── create_ansatz.py       # Quantum circuit ansatz construction
 
-│ ├── molecule_build.py # Structure & integral computation
+│ ├── molecule_build.py      # Structure & integral computation
 
-│ ├── ansatz_optimiser.py # Circuit optimization for backends
+│ ├── ansatz_optimiser.py    # Circuit optimization for backends
 
-│ ├── zigzag_layout.py # Qubit layout optimization
+│ ├── zigzag_layout.py       # Qubit layout optimization
 
-│ ├── recovery_solver.py # SQD solver implementation
+│ ├── recovery_solver.py     # SQD solver implementation
 
-│ └── loader.py # Molecule file parser
+│ └── loader.py              # Molecule file parser
 
-├── flows/ # Prefect workflow orchestration
+├── flows/                # Prefect workflow orchestration
 
-│ ├── batch_flow.py # Main workflow orchestrator
+│ ├── batch_flow.py          # Main workflow orchestrator
 
-│ ├── sampler_task.py # Quantum circuit execution engine
+│ ├── sampler_task.py        # Quantum circuit execution engine
 
-│ ├── tasks_scheduling.py # Backend selection & load balancing
+│ ├── tasks_scheduling.py    # Backend selection & load balancing
 
-│ ├── tasks_reliability.py # Custom decorators & utilities
+│ ├── tasks_reliability.py   # Custom decorators & utilities
 
-│ └── tasks_core.py # Molecules & integrals computation
+│ └── tasks_core.py          # Molecules & integrals computation
 
-├── compounds/ # Input compounds data
+├── compounds/            # Input compounds data
 
-├── compounds_fallback/ # Fallback basis set data (sto-3g)
+├── compounds_fallback/   # Fallback basis set data (sto-3g)
 
-├── backend_logs/ # IBM Quantum backend logs
+├── backend_logs/         # IBM Quantum backend logs
 
-└── .prefect_cache/ # Prefect task caches directory
+└── .prefect_cache/       # Prefect task caches directory
 
 ## **Usage Instructions**
 
@@ -267,4 +267,5 @@ Contributions are welcome. Please submit a Pull Request.
 ## **Contact**
 
 For questions or support, please open an issue on GitHub.
+
 
