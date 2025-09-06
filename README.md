@@ -19,7 +19,7 @@ The system performs **Sample-based Quantum Diagonalization (SQD)** calculations 
 - **Comprehensive Monitoring**: Real-time execution tracking and detailed logging  
 
 ## **Architecture**
-
+```
 SQD_pipeline/
 
 ├── chemistry/             # Core quantum chemistry logic
@@ -55,7 +55,7 @@ SQD_pipeline/
 ├── backend_logs/         # IBM Quantum backend logs
 
 └── .prefect_cache/       # Prefect task caches directory
-
+```
 ## **Usage Instructions**
 
 ### **1\. Install Dependencies**
@@ -267,5 +267,6 @@ Contributions are welcome. Please submit a Pull Request.
 ## **Contact**
 
 For questions or support, please open an issue on GitHub.
+
 
 
